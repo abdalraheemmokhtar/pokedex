@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;700&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
 * {
     margin: 0;
     padding: 0;
@@ -7,9 +7,9 @@
 }
 
 body {
-    background: #333;
+    background: #202234ff;
     line-height: 1.5;
-    font-family: 'Caveat', cursive;
+    font-family: 'Architects Daughter', cursive;
 }
 
 main {
@@ -20,7 +20,7 @@ main {
 
 main > h1 {
     text-align: center;
-    color: #e4c439;
+    color: #FFBF3Bff;
     margin-bottom: 2rem;
     font-size: 2rem;
     text-transform: uppercase;
@@ -36,7 +36,7 @@ main > h1 {
 
 .card {
     width: 12rem auto;
-    background: #444;
+    background: #1598A6ff;
     color: #e4c439;
     padding: 1rem;
     border-radius: 10px;
@@ -55,9 +55,9 @@ main > h1 {
 }
 
 .card--id {
-    background: #cebf7b;
+    background: #202234ff;
     width: 3rem;
-    color: #333;
+    color: #fff;
     padding: 0.1rem;
     font-weight: 700;
     position: absolute;
@@ -80,5 +80,5 @@ main > h1 {
 
 .card--details {
     font-size: 1.3rem;
-    color: #dbca80;
+    color: #202234ff;
 }
